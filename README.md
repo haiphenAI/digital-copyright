@@ -4,10 +4,10 @@ source tarball to stamp your code with a traceable digital copyright
 
 ## Instructions:
 
-###Install
+### Install
 1. Brew install via `brew install git@github.com:JudeSafo/digital-copyright`
 
-###Run
+### Run
 1. Navigate to <path> where you intend to publish your docker image is saved
 2. run: `haiphen -e -i License -o LICENSE_sha256hash.enc`
 3. copy <hash> returned
