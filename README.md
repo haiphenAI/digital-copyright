@@ -8,7 +8,7 @@ source tarball to stamp your code with a traceable digital copyright
 1. Brew install via `brew install git@github.com:JudeSafo/digital-copyright`
 
 ### Run
-1. Navigate to &ltpath&rt where you intend to publish your docker image is saved
+1. Navigate to &l;tpath&rt; where you intend to publish your docker image is saved
 2. run: `haiphen -e -i License -o LICENSE_sha256hash.enc`
-3. copy returned &lthash&rt
-4. Navigate to https:/https://ipfs.infura.io/ipfs/&lthash&rt to monitor file
+3. copy returned &l;thash&rt;
+4. Navigate to https:/https://ipfs.infura.io/ipfs/&l;thash&rt; to monitor file
