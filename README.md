@@ -8,7 +8,8 @@ source tarball to stamp your code with a traceable digital copyright
 1. `brew tap JudeSafo/homebrew-testtap`
 2. `brew install digital-copyright`
 3. test installation by typing `haiphen`
-4. ```Examples:
+should return
+```Examples:
     # Create a test file [test.txt]
     echo "This is a Test." > test.txt
     # Generate a Key and save it to file [encryption.key]
@@ -36,8 +37,12 @@ source tarball to stamp your code with a traceable digital copyright
     bash  -e -i test.txt -o test.enc
     ```
 
-### Run
+### Encrypt
+- desc: assign hash and test 
 1. Navigate to `{path}` where you intend to publish your docker image is saved
 2. run: `haiphen -e -i License -o LICENSE_sha256hash.enc`
 3. copy returned `{hash}`
 4. Navigate to https:/https://ipfs.infura.io/ipfs/{hash} to monitor file
+
+### Monitor
+1. ...
