@@ -35,7 +35,7 @@ should return
     # If no key or password is passed to the command
     # then you will be prompted for a password.
     bash  -e -i test.txt -o test.enc
-    ```
+```
 
 ### Encrypt
 - desc: assign hash and test 
