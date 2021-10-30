@@ -38,7 +38,7 @@ should return
 ```
 
 ### Encrypt
-- desc: assign hash and test 
+Assign hash and test 
 1. Navigate to `{path}` where you intend to publish your docker image is saved
 2. run: `haiphen -e -i License -o LICENSE_sha256hash.enc`
 3. copy returned `{hash}`
