@@ -5,7 +5,9 @@ source tarball to stamp your code with a traceable digital copyright
 ## Instructions:
 
 ### Install
-1. Brew install via `brew install git@github.com:JudeSafo/digital-copyright`
+1. `brew tap JudeSafo/homebrew-testtap`
+2. `brew install digital-copyright`
+3. test it, type: `haiphen`
 
 ### Run
 1. Navigate to `{path}` where you intend to publish your docker image is saved
