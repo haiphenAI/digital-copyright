@@ -9,7 +9,6 @@
 (Beta)<br>
 source tarball to stamp your docker-image with a traceable digital copyright
    
-## Instructions:
 
 ### Install
 Requirements: [homebrew](https://brew.sh/), [docker](https://docker.com), [macosx terminal](https://github.com/sickcodes/Docker-OSX) all installed.<br>
