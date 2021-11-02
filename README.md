@@ -39,7 +39,7 @@ $ docker compose up -d
 $ docker build -t test_docker_image
 
 ```
-### Run Haiphen
+### Run Haiphen to stamp your license
 
 Navigate to `{path}` where you intend to publish your docker image and type:
 ```
