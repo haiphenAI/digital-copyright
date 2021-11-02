@@ -48,4 +48,9 @@ $ haiphen -e -i License -o LICENSE_sha256hash.enc
 Confirm that a (chrome) browser opens to https:/https://ipfs.infura.io/ipfs/{hash} with the encrypted license and hash-address you just created
 
 ### Deploy docker image and monitor
-1. $ docker run test_docker_image
+1. deploy your image
+```
+$ docker run test_docker_image
+```
+3. ...
+4. (In progress) `ping` haiphen for metadata on your api (e.g. end-point users, tags, etc.)
