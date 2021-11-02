@@ -11,7 +11,11 @@ source tarball to stamp your docker-image with a traceable digital copyright
    
 
 ### Install
-*_Requirements_*: You should have [homebrew](https://brew.sh/), [docker](https://docker.com),[reactjs-boilerplate](https://www.npmjs.com/package/reactjs-boilerplate), [macosx terminal](https://github.com/sickcodes/Docker-OSX) all installed.<br>
+*_Requirements_*: You should have the following installed on your machine:
+- [homebrew](https://brew.sh/) 
+- [docker](https://docker.com)
+- [reactjs-boilerplate](https://www.npmjs.com/package/reactjs-boilerplate)
+- [macosx terminal](https://github.com/sickcodes/Docker-OSX) <br>
 Navigate to [command-line](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) on your machine and enter the following commands:<br>
 ```
 $ brew tap JudeSafo/homebrew-testtap
