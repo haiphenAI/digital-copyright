@@ -1,6 +1,6 @@
-# digital-copyright
+# Haiphen: create your own traceable digital-copyright
 (Beta)<br>
-source tarball to stamp your code with a traceable digital copyright
+source tarball to stamp your docker-image with a traceable digital copyright
 
 ## Instructions:
 
