@@ -7,7 +7,7 @@
 
 ----
 (Beta)<br>
-haiphen: a low level binary file to 'stamp' your docker-image with a traceable digital copyright
+Haiphen: a low level binary file to 'stamp' your docker-image with a traceable digital copyright
    
 
 ### Install
