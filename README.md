@@ -2,7 +2,7 @@
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/569/badge)](https://bestpractices.coreinfrastructure.org/projects/569)
 
-<br>Create your own traceable digital-copyright<br><br>
+Create your own traceable digital-copyright<br><br>
 <img src="https://github.com/JudeSafo/digital-copyright/blob/master/logo/Snip20210901_8.png" width="400">
 
 ----
