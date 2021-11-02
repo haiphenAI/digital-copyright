@@ -50,7 +50,7 @@ Confirm that a (chrome) browser opens to https:/https://ipfs.infura.io/ipfs/{has
 ### Deploy docker image and monitor
 1. deploy your image
 ```
-$ docker run test_docker_image
+> $ docker run test_docker_image
 ```
 3. ...
 4. (In progress) `ping` haiphen for metadata on your api (e.g. end-point users, tags, etc.)
