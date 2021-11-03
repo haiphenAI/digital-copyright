@@ -7,7 +7,7 @@
 
 ----
 (Beta)<br>
-Haiphen: a low level binary file to 'stamp' your docker-image with a traceable digital copyright
+Haiphen: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright router. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother.
    
 
 ### Install
