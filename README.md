@@ -6,7 +6,7 @@
 <img src="https://github.com/JudeSafo/digital-copyright/blob/master/logo/Snip20210901_8.png" width="400">
 
 ----
-**Haiphen**: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright router. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother.
+**Haiphen**: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright \[patent pending\] router. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother. End users using the tool will have single-entry point, secure access to all of their 3rd party software (easier to manage, make payments, audit, etc.) This code is secured by a decentralized blockhain   
    
 
 ### Install
