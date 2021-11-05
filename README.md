@@ -1,9 +1,3 @@
-## Table of contents
-
-- [Install  <a name="install"></a>](#install)
-- [Create Docker Image <a name="create_docker_image"></a>](#create_docker_image)
-- [Stamp haiphen_license <a name="stamp_haiphen_license"></a>](#stamp_haiphen_license)
-- [Deploy_docker <a name="deploy_docker"></a>](#deploy_docker)
 # Haiphen 
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/569/badge)](https://bestpractices.coreinfrastructure.org/projects/569)<br>
