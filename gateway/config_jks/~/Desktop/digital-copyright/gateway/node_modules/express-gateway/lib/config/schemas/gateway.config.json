@@ -1,0 +1,234 @@
+{
+  "$id": "http://express-gateway.io/models/gateway.config.json",
+  "definitions": {
+    "baseApiEndpoint": {
+      "type": "object",
+      "properties": {
+        "host": {
+          "type": "string"
+        },
+        "paths": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "pathRegex": {
+          "type": "string",
+          "format": "regex"
+        },
+        "scopes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "methods": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "conditionAction": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "action": {
+          "type": "object",
+          "default": {}
+        },
+        "condition": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name"
+          ],
+          "default": {
+            "name": "always"
+          }
+        }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "http": {
+      "type": "object",
+      "properties": {
+        "port": {
+          "type": "number"
+        }
+      }
+    },
+    "https": {
+      "type": "object",
+      "properties": {
+        "port": {
+          "type": "number"
+        },
+        "tls": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string"
+              },
+              "cert": {
+                "type": "string"
+              },
+              "ca": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "admin": {
+      "allOf": [
+        {
+          "properties": {
+            "port": {
+              "type": "number",
+              "default": 9876
+            },
+            "host": {
+              "type": "string"
+            },
+            "hostname": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "port"
+          ]
+        }
+      ]
+    },
+    "apiEndpoints": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/baseApiEndpoint"
+          },
+          {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/baseApiEndpoint"
+            }
+          }
+        ]
+      }
+    },
+    "serviceEndpoints": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "urls": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "oneOf": [
+          {
+            "required": [
+              "url"
+            ]
+          },
+          {
+            "required": [
+              "urls"
+            ]
+          }
+        ]
+      }
+    },
+    "policies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pipelines": {
+      "type": [
+        "object",
+        "array",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "apiEndpoint": {
+            "type": "string"
+          },
+          "apiEndpoints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "policies": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "maxProperties": 1,
+                "additionalProperties": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/definitions/conditionAction"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/definitions/conditionAction"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "required": [
+          "policies"
+        ]
+      }
+    }
+  }
+}
