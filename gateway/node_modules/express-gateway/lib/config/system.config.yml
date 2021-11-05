@@ -1,0 +1,28 @@
+db:
+  redis:
+    emulate: ${EG_DB_EMULATE:-true}
+    host: localhost
+    port: 6379
+    namespace: EG
+
+cli:
+  url: http://localhost:9876
+
+#plugins:
+  # express-gateway-plugin-example:
+  #   param1: 'param from system.config'
+
+crypto:
+  cipherKey: sensitiveKey
+  algorithm: aes256
+  saltRounds: 10
+session:
+  secret: keyboard cat
+  resave: false
+  saveUninitialized: false
+accessTokens:
+  timeToExpiry: 7200000
+refreshTokens:
+  timeToExpiry: 7200000
+authorizationCodes:
+  timeToExpiry: 300000

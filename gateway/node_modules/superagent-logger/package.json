@@ -1,0 +1,38 @@
+{
+  "name": "superagent-logger",
+  "version": "1.1.0",
+  "description": "superagent middleware for adding NPM-style logging. Useful for debugging HTTP clients.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamadapc/superagent-logger.git"
+  },
+  "keywords": [
+    "superagent",
+    "npm",
+    "logger",
+    "debugging",
+    "debug",
+    "logs",
+    "request",
+    "http"
+  ],
+  "author": "Pedro Tacla Yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadapc/superagent-logger/issues"
+  },
+  "homepage": "https://github.com/yamadapc/superagent-logger#readme",
+  "peerDependencies": {
+    "superagent": ">=1"
+  },
+  "devDependencies": {
+    "superagent": "^1.2.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.0"
+  }
+}
