@@ -41,7 +41,7 @@ $ docker build -t test_docker_image
 ```
 ### Run Haiphen to stamp your license <a name="stamp_haiphen_license"></a>
 
-Navigate to `\<path\>` where you intend to publish your docker image and type:
+Navigate to `<path>` where you intend to publish your docker image and type:
 ```
 $ haiphen -e -i License -o LICENSE_sha256hash.enc
 ```
