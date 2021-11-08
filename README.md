@@ -2,7 +2,7 @@
 <br>https://haiphenai.com<br> 
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/569/badge)](https://bestpractices.coreinfrastructure.org/projects/569)<br>
-<img src="https://github.com/JudeSafo/digital-copyright/blob/master/logo/Snip20210901_8.png" width="100">
+<img src="https://github.com/JudeSafo/digital-copyright/blob/master/logo/Snip20210901_8.png" width="200">
 
 ----
 "Create your own traceable digital-copyright"<br><br>
