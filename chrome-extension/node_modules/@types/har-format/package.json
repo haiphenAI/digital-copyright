@@ -1,0 +1,30 @@
+{
+    "name": "@types/har-format",
+    "version": "1.2.7",
+    "description": "TypeScript definitions for HAR",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/har-format",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Michael Mrowetz",
+            "url": "https://github.com/micmro",
+            "githubUsername": "micmro"
+        },
+        {
+            "name": "Marcell Toth",
+            "url": "https://github.com/marcelltoth",
+            "githubUsername": "marcelltoth"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/har-format"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "85cf407212ae7f3024cc92258123b2df2ea54d3436fc1fe6d12f75f0ac4ba977",
+    "typeScriptVersion": "3.6"
+}
