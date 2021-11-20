@@ -55,4 +55,6 @@ $ docker run test_docker_image
 3. ...
 4. (In progress) `ping` haiphen for metadata on your api (e.g. end-point users, tags, etc.)
 
+<br><br>
+#### Demo (placeholder)
 ![demo](logo/main.gif)
