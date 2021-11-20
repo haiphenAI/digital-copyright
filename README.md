@@ -8,7 +8,6 @@
 "Create your own traceable digital-copyright"<br><br>
 **Haiphen**: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright \[patent pending\] router. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother. End users using the tool will have single-entry, secure access point to all of their 3rd party software (easier to manage, make payments, audit, etc.) All copy-rights are secured on an immutable, decentralized blockhain ([filecoin](https://filecoin.io/))   
    
-![demo](logo/main.gif)
 
 ### Install <a name="install"></a>
 *_Requirements_*: You should have the following installed on your machine:
@@ -55,3 +54,5 @@ $ docker run test_docker_image
 ```
 3. ...
 4. (In progress) `ping` haiphen for metadata on your api (e.g. end-point users, tags, etc.)
+
+![demo](logo/main.gif)
