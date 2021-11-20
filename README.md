@@ -44,7 +44,7 @@ Navigate to `{path}` where you intend to publish your docker image and type:
 ```
 $ haiphen -e -i License -o LICENSE_sha256hash.enc
 ```
-Confirm that your (chrome) browser opens to confirm the encrypted license has been written to the filecoin blockchain at the new [hash-address](/https://ipfs.infura.io/ipfs/) 
+Confirm that your (chrome) browser opens to hash address of your encrypted license [hash-address](/https://ipfs.infura.io/ipfs/) 
 
 ### Deploy docker image and monitor
 1. deploy your image
