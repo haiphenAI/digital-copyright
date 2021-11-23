@@ -53,7 +53,7 @@ Confirm that your (chrome) browser opens to confirm the encrypted license has be
 $ docker run test_docker_image
 ```
 3. ...
-4. (In progress) `ping` haiphen for metadata on your api (e.g. end-point users, tags, etc.)
+4. (In progress) Open the [chrome extension](https://github.com/JudeSafo/digital-copyright) to `ping` haiphen for metadata on your api (e.g. end-point users, tags, traffic, connected APIs)
 
 <br><br>
 #### Demo (placeholder)
