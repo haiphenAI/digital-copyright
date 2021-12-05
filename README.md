@@ -24,7 +24,7 @@ $ brew install digital-copyright
 Alternatively you can clone this repot `git clone https://github.com/JudeSafo/digital-copyright/` and run: 
 ```
 $ cd digital-copyright
-$ mv haiphen \usr\local\bin
+$ mv haiphen \usr\local\bin\haiphen
 ```
 If succesfull test installation by typing `haiphen` and confirming it returns
 
