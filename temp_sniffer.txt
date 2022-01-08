@@ -1,0 +1,16 @@
+./api-extension/.git/config:	url = git@github.com:5ms/sniffer.git
+./api-extension/.git/logs/HEAD:0000000000000000000000000000000000000000 3ed8aad4f5b2d5d59be944b422286cf04891d220 JudeSafo <jude.safo@gmail.com> 1636584141 -0500	clone: from github.com:5ms/sniffer.git
+./api-extension/.git/logs/refs/heads/master:0000000000000000000000000000000000000000 3ed8aad4f5b2d5d59be944b422286cf04891d220 JudeSafo <jude.safo@gmail.com> 1636584141 -0500	clone: from github.com:5ms/sniffer.git
+./api-extension/.git/logs/refs/remotes/origin/HEAD:0000000000000000000000000000000000000000 3ed8aad4f5b2d5d59be944b422286cf04891d220 JudeSafo <jude.safo@gmail.com> 1636584141 -0500	clone: from github.com:5ms/sniffer.git
+./gateway/node_modules/fengari/yarn.lock:html-encoding-sniffer@^1.0.2:
+./gateway/node_modules/fengari/yarn.lock:  resolved "https://registry.yarnpkg.com/html-encoding-sniffer/-/html-encoding-sniffer-1.0.2.tgz#e70d84b94da53aa375e11fe3a351be6642ca46f8"
+./gateway/node_modules/fengari/yarn.lock:    html-encoding-sniffer "^1.0.2"
+./gateway/node_modules/fengari-interop/yarn.lock:html-encoding-sniffer@^1.0.2:
+./gateway/node_modules/fengari-interop/yarn.lock:  resolved "https://registry.yarnpkg.com/html-encoding-sniffer/-/html-encoding-sniffer-1.0.2.tgz#e70d84b94da53aa375e11fe3a351be6642ca46f8"
+./gateway/node_modules/fengari-interop/yarn.lock:    html-encoding-sniffer "^1.0.2"
+./gateway/config_jks/~/Desktop/digital-copyright/gateway/node_modules/fengari/yarn.lock:html-encoding-sniffer@^1.0.2:
+./gateway/config_jks/~/Desktop/digital-copyright/gateway/node_modules/fengari/yarn.lock:  resolved "https://registry.yarnpkg.com/html-encoding-sniffer/-/html-encoding-sniffer-1.0.2.tgz#e70d84b94da53aa375e11fe3a351be6642ca46f8"
+./gateway/config_jks/~/Desktop/digital-copyright/gateway/node_modules/fengari/yarn.lock:    html-encoding-sniffer "^1.0.2"
+./gateway/config_jks/~/Desktop/digital-copyright/gateway/node_modules/fengari-interop/yarn.lock:html-encoding-sniffer@^1.0.2:
+./gateway/config_jks/~/Desktop/digital-copyright/gateway/node_modules/fengari-interop/yarn.lock:  resolved "https://registry.yarnpkg.com/html-encoding-sniffer/-/html-encoding-sniffer-1.0.2.tgz#e70d84b94da53aa375e11fe3a351be6642ca46f8"
+./gateway/config_jks/~/Desktop/digital-copyright/gateway/node_modules/fengari-interop/yarn.lock:    html-encoding-sniffer "^1.0.2"

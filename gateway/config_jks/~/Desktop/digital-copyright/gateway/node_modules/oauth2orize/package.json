@@ -1,0 +1,60 @@
+{
+  "name": "oauth2orize",
+  "version": "1.11.0",
+  "description": "OAuth 2.0 authorization server toolkit for Node.js.",
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "auth",
+    "authz",
+    "authorization",
+    "connect",
+    "express",
+    "passport",
+    "middleware"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "contributors": [
+    {
+      "name": "Samuel Judson",
+      "url": "https://www.sjudson.com/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/oauth2orize.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/oauth2orize/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "uid2": "0.0.x",
+    "utils-merge": "1.x.x",
+    "debug": "2.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
+    "chai-connect-middleware": "0.3.x",
+    "chai-oauth2orize-grant": "0.3.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  }
+}

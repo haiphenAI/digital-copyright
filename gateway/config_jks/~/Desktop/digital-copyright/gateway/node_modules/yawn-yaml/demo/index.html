@@ -1,0 +1,153 @@
+<html>
+  <head>
+    <title>YAWN Demo</title>
+    <script src="../bower_components/js-yaml/dist/js-yaml.js"></script>
+    <script src="../bower_components/yaml-js/yaml.js"></script>
+    <script src="../bower_components/lodash/lodash.js"></script>
+    <script src="../dist/yawn.js"></script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        font-family: sans-serif;
+      }
+      header {
+        padding: .3em 1em;
+        display: flex;
+        justify-content: space-between;
+      }
+      .wrapper {
+        display: flex;
+        flex: 1;
+      }
+      .wrapper > div {
+        padding: 10px;
+        justify-content: center
+      }
+      .col {
+        display: flex;
+        flex: 5;
+      }
+      .col textarea,
+      .col output {
+        display: block;
+        width: 100%;
+        border: 1px solid #e3e3e3;
+        margin: 0;
+        font-family: monospace;
+        font-size: 14px;
+        white-space: pre;
+        padding: 5px;
+        overflow: auto;
+      }
+      .convert {
+        display: flex;
+        flex: 1;
+        align-items: center;
+      }
+      .convert button {
+        background-image: url('./arrow.svg');
+        background-color: transparent;
+        border: none;
+        background-size: cover;
+        background-position: center center;
+        height: 59px;
+        color: white;
+        width: 81px;
+        cursor: pointer;
+      }
+
+      textarea:focus {
+        outline: 3px solid rgba(41, 154, 226, 0.5);
+        box-shadow: 0 0 5px #00FFF4;
+      }
+      button:focus {
+        background-image: url('./arrow-selected.svg');
+        outline: none;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <h2>YAWN Demo</h2>
+        <p>YAWN allow you edit YAML in JavaScript and put it back to YAML <b>without</b> losing comments and styling</p>
+      </div>
+      <div class="right">
+        <p><b><a href="https://github.com/mohsen1/yawn-yaml">Code in GitHub</a></b></p>
+        <iframe src="https://ghbtns.com/github-btn.html?user=mohsen1&repo=yawn-yaml&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="col">
+        <textarea id="source"></textarea>
+      </div>
+      <div class="convert">
+        <button id="toJson">toJSON</button>
+      </div>
+      <div class="col">
+        <textarea id="json"></textarea>
+      </div>
+      <div class="convert">
+        <button id="toYaml">toYAML</button>
+      </div>
+      <div class="col">
+        <output id="dest"></output>
+      </div>
+    </div>
+
+    <script>
+      'use strict';
+
+      var defaultYaml = [
+        '# this is a YAML document',
+        '# comment lines start with "#"',
+        '# this document is a map',
+        '',
+        '',
+        '# a simple key/value pair',
+        'value: 1 # inline comment',
+        '',
+        '',
+        '# a map',
+        'map:',
+        '  key: value # another inline comment',
+        '',
+        '',
+        '# an array',
+        'array:',
+        '  - item1',
+        '  - item2',
+        '',
+        '# trailing comment'
+      ].join('\n');
+
+      var source = document.getElementById('source');
+      var json = document.getElementById('json');
+      var dest = document.getElementById('dest');
+
+      source.value = defaultYaml;
+
+      var yawn = new YAWN(source.value);
+
+      document.getElementById('toJson').addEventListener('click', function (event) {
+        yawn = new YAWN(source.value);
+        json.value = JSON.stringify(yawn.json, null, 2);
+        dest.value = '';
+      });
+      document.getElementById('toYaml').addEventListener('click', function (event) {
+        try {
+          yawn.json = JSON.parse(json.value);
+        } catch (error) {
+          return alert('Error parsing JSON\n' + String(error));
+        }
+        dest.value = yawn.yaml;
+      });
+    </script>
+  </body>
+</html>

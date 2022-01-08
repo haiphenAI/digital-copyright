@@ -1,0 +1,136 @@
+{
+  "$id": "http://express-gateway.io/models/system.config.json",
+  "type": "object",
+  "properties": {
+    "db": {
+      "type": "object",
+      "properties": {
+        "redis": {
+          "type": "object",
+          "properties": {
+            "emulate": {
+              "type": "boolean",
+              "default": false
+            },
+            "namespace": {
+              "type": "string",
+              "default": "EG"
+            }
+          },
+          "required": [
+            "emulate",
+            "namespace"
+          ]
+        }
+      },
+      "required": [
+        "redis"
+      ]
+    },
+    "crypto": {
+      "type": "object",
+      "properties": {
+        "cipherKey": {
+          "type": "string",
+          "default": "sensitiveKey"
+        },
+        "algorithm": {
+          "type": "string",
+          "default": "aes256"
+        },
+        "saltRounds": {
+          "type": "number",
+          "default": 10
+        }
+      },
+      "required": [
+        "cipherKey",
+        "algorithm",
+        "saltRounds"
+      ],
+      "default": {}
+    },
+    "session": {
+      "type": "object",
+      "default": {}
+    },
+    "accessTokens": {
+      "type": "object",
+      "properties": {
+        "tokenType": {
+          "type": "string",
+          "enum": [
+            "jwt",
+            "opaque"
+          ],
+          "default": "opaque"
+        },
+        "timeToExpiry": {
+          "type": "number",
+          "default": 720000
+        },
+        "issuer": {
+          "type": "string"
+        },
+        "audience": {
+          "type": [
+            "string",
+            "array"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "subject": {
+          "type": "string"
+        },
+        "algorithm": {
+          "type": "string",
+          "default": "HS256"
+        }
+      },
+      "required": [
+        "tokenType",
+        "timeToExpiry"
+      ],
+      "default": {}
+    },
+    "refreshTokens": {
+      "type": "object",
+      "properties": {
+        "timeToExpiry": {
+          "type": "number",
+          "default": 720000
+        }
+      },
+      "required": [
+        "timeToExpiry"
+      ],
+      "default": {}
+    },
+    "authorizationCodes": {
+      "type": "object",
+      "properties": {
+        "timeToExpiry": {
+          "type": "number",
+          "default": 300000
+        }
+      },
+      "required": [
+        "timeToExpiry"
+      ],
+      "default": {}
+    },
+    "plugins": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "db",
+    "crypto",
+    "session",
+    "accessTokens",
+    "refreshTokens",
+    "authorizationCodes"
+  ]
+}
