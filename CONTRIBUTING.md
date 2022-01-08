@@ -1,0 +1,1 @@
+True to our essence we are bootstrapping haiphen to build haiphen. All the developers who contribute on this project own the rights to their own digital IP and have the freedom to take it with them should they chose. We believe that free-market principles are the best determinants of how and with whom you chose to work.
