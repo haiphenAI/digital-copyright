@@ -9,7 +9,7 @@
    
 ![demo](logo/main.gif)
 
-### Install
+### Install <a name="install"></a>
 *_Requirements_*: You should have the following installed on your machine:
 - [homebrew](https://brew.sh/) 
 - [docker](https://www.docker.com/get-started)
@@ -31,7 +31,7 @@ Examples:
     bash  -g > encryption.key
     ...
 ```
-### Create a test docker image
+### Create a test docker image <a name="create_docker_image"></a>
 ```
 $ reactjs-boilerplate test_docker_image
 ...
@@ -39,7 +39,7 @@ $ docker compose up -d
 $ docker build -t test_docker_image
 
 ```
-### Run Haiphen to stamp your license
+### Run Haiphen to stamp your license <a name="stamp_haiphen_license"></a>
 
 Navigate to `{path}` where you intend to publish your docker image and type:
 ```
@@ -47,7 +47,7 @@ $ haiphen -e -i License -o LICENSE_sha256hash.enc
 ```
 Confirm that your (chrome) browser opens to confirm the encrypted license has been written to the filecoin blockchain at the new [hash-address](/https://ipfs.infura.io/ipfs/) 
 
-### Deploy docker image and monitor
+### Deploy docker image and monitor <a name="deploy_docker"></a>
 1. deploy your image
 ```
 > $ docker run test_docker_image
