@@ -1,3 +1,5 @@
+#Simple script to grep github unames from txt file
+
 import sys
 
 file_name  = sys.argv[1]
