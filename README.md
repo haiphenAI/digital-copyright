@@ -23,7 +23,7 @@ Navigate to [command-line](https://support.apple.com/guide/terminal/open-or-quit
 $ brew tap JudeSafo/homebrew-testtap
 $ brew install digital-copyright
 ```
-Alternatively you can clone this repot `git clone https://github.com/JudeSafo/digital-copyright/` and run: 
+Alternatively you can clone this repot `git clone https://github.com/haiphenai/digital-copyright/` and run: 
 ```
 $ cd digital-copyright
 $ mv haiphen \usr\local\bin\haiphen
