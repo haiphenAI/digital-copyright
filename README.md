@@ -14,7 +14,6 @@ Haiphen: a low level binary file to 'stamp' your docker-image with an encrypted,
 *_Requirements_*: You should have the following installed on your machine:
 - [homebrew](https://brew.sh/) 
 - [docker](https://www.docker.com/get-started)
-- [kubernetes](https://minikube.sigs.k8s.io/docs/start/)
 - [reactjs-boilerplate](https://www.npmjs.com/package/reactjs-boilerplate)
 - [macosx terminal](https://github.com/sickcodes/Docker-OSX) <br>
 
