@@ -69,7 +69,7 @@ Please read through the [contributing guidelines](./CONTRIBUTING.md)
 
 ## Help & Community [![Slack](https://www.google.com/url?q=https%3A%2F%2Fjoin.slack.com%2Ft%2Fhaiphenworkspace%2Fshared_invite%2Fzt-108madwc5-B5IjsD5QIscdRifdFnZLLw&sa=D&sntz=1&usg=AFQjCNGjPPJGC3eRcXjt8s5o13nZQAQ4_A)](https://the-guild.dev/discord)
 
-Join our slack channel or mesage us on [discord](jks142857#2350) [Slack chat](https://www.google.com/url?q=https%3A%2F%2Fjoin.slack.com%2Ft%2Fhaiphenworkspace%2Fshared_invite%2Fzt-108madwc5-B5IjsD5QIscdRifdFnZLLw&sa=D&sntz=1&usg=AFQjCNGjPPJGC3eRcXjt8s5o13nZQAQ4_A)](https://the-guild.dev/discord) if you run into issues or have questions. We're excited to welcome you to the community!
+Join our slack channel or mesage us on [discord](jks142857#2350) [Slack chat](https://www.google.com/url?q=https%3A%2F%2Fjoin.slack.com%2Ft%2Fhaiphenworkspace%2Fshared_invite%2Fzt-108madwc5-B5IjsD5QIscdRifdFnZLLw&sa=D&sntz=1&usg=AFQjCNGjPPJGC3eRcXjt8s5o13nZQAQ4_A)] if you run into issues or have questions. We're excited to welcome you to the community!
 <br><br>
 
 #### Demo (placeholder)
