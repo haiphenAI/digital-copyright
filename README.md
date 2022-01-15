@@ -59,8 +59,18 @@ Confirm that your (chrome) browser opens and the transaction has been written to
 $ docker run test_docker_image
 ```
 3. ...
-4. (In progress) Open the [chrome extension](https://chrome.google.com/webstore/detail/haiphen-an-api-marketplac/klolgapgdelcegmhiklbpacjdaiknimb) to track your API activity (e.g. traffic, header
+4. (In progress) Open the [chrome extension](https://chrome.google.com/webstore/detail/haiphen-an-api-marketplac/klolgapgdelcegmhiklbpacjdaiknimb) to track your API activity 
 
 <br><br>
+## Contributing
+
+Please read through the [contributing guidelines](./CONTRIBUTING.md)
+<br><br>
+
+## Help & Community [![Slack](https://www.google.com/url?q=https%3A%2F%2Fjoin.slack.com%2Ft%2Fhaiphenworkspace%2Fshared_invite%2Fzt-108madwc5-B5IjsD5QIscdRifdFnZLLw&sa=D&sntz=1&usg=AFQjCNGjPPJGC3eRcXjt8s5o13nZQAQ4_A)](https://the-guild.dev/discord)
+
+Join our slack channel or mesage us on [discord](jks142857#2350) [Slack chat](https://www.google.com/url?q=https%3A%2F%2Fjoin.slack.com%2Ft%2Fhaiphenworkspace%2Fshared_invite%2Fzt-108madwc5-B5IjsD5QIscdRifdFnZLLw&sa=D&sntz=1&usg=AFQjCNGjPPJGC3eRcXjt8s5o13nZQAQ4_A)](https://the-guild.dev/discord) if you run into issues or have questions. We're excited to welcome you to the community!
+<br><br>
+
 #### Demo (placeholder)
 ![demo](logo/main.gif)
