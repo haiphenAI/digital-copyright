@@ -1,4 +1,7 @@
 # Haiphen 
+
+Please contact pi@haiphenai.com for help with installation. 
+
 <br>https://haiphenai.com<br> 
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/569/badge)](https://bestpractices.coreinfrastructure.org/projects/569)<br>
